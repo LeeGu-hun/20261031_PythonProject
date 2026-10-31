@@ -14,6 +14,11 @@ num2 = 20
 print(num1 + num2)
 print()  # 빈줄 띄우기
 total = num1 + num2
-print("합계: ", total)
+print("합계: ", "\n" ,total)
+print(type(total))
+# 변수의 값이 고정이 아니고, 가변적
+total = "합계"
+print(total)
+print(type(total))
 
 
