@@ -20,5 +20,12 @@ print(type(total))
 total = "합계"
 print(total)
 print(type(total))
-
+print("=== 변수의 type ===")
+power = True  #True, False
+print(type(power))
+pi = 3.141592
+print(type(pi)) # 실수
+num = 1
+print(type(num)) # 정수
+print(type(None))# 없는 값 None
 
